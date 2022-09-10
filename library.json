@@ -15,7 +15,17 @@
             "email": "ryodo.tanaka@arav.jp",
             "maintainer": true
         }],
-    "srcFilter": "-<bench/> -<blas/> -<debug/> -<demos/> -<doc/> -<failtest/> -<lapack/> -<test/> -<unsupported/>",
+    "srcFilter":
+    ["-<bench/>",
+     "-<blas/>",
+     "-<debug/>",
+     "-<demos/>",
+     "-<doc/>",
+     "-<failtest/>",
+     "-<lapack/>",
+     "-<test/>",
+     "-<unsupported/>"
+    ],
     "frameworks": "*",
     "platforms": "*",
 }
