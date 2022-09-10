@@ -1,0 +1,21 @@
+{
+    "name": "eigen",
+    "version": "1.0.0",
+    "license" : "TODO",
+    "keywords": "c++, eigen",
+    "description": "Eigen headers",
+    "authors":
+    [
+        {
+            "name": "Intel Corporation",
+            "maintainer": false
+        },
+        {
+            "name": "Ryodo Tanaka",
+            "email": "ryodo.tanaka@arav.jp",
+            "maintainer": true
+        }],
+    "srcFilter": "-<bench/> -<blas/> -<debug/> -<demos/> -<doc/> -<failtest/> -<lapack/> -<test/> -<unsupported/>",
+    "frameworks": "*",
+    "platforms": "*",
+}
